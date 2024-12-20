@@ -73,7 +73,7 @@ function isOneLetterDifferent(word1, word2)
             diffCount = diffCount + 1;
         ENDIF
     ENDFOR
-END
+
     // Kontrollera om exakt en skillnad finns
     if diffCount == 1 THEN
         return true;
@@ -81,5 +81,5 @@ END
         return false;
     ENDIF
 END FUNCTION
-
+END
 */
