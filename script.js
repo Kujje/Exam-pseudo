@@ -2,7 +2,22 @@
 // Skriv din pseudokod innanför nedanstående kommentarsblock
 /*
 
+START
+FUNCTION "SplitNota"
+INPUT "summa"
+INPUT "vänner" 
+INPUT "dricks"
 
+CALCULATE "totala_summan" = summa + (summa*dricks)
+CALCULATE "en_vän" = totala_summan / vänner
+
+PRINT "Varje vän ska betala: en_vän"
+
+ENDFUNCTION
+
+CALL FUNCTION "SplitNota"
+
+END
 */
 
 // VG-Version - Lewis Carroll Word Puzzle
