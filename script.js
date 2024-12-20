@@ -24,7 +24,7 @@ END
 // Skriv din pseudokod innanför nedanstående kommentarsblock
 // Startkoden är 100% frivillig och kan tas bort eller skrivas om
 /*
-
+START
 function play()
     SET ordbok = ["FOUR", "FOUL", "FOOL", "FOOT", "FORT", "FORE", "FIRE", "FIVE", "EYE", "LID"];
     SET startOrd = "FOUR"; // Startordet
@@ -73,7 +73,7 @@ function isOneLetterDifferent(word1, word2)
             diffCount = diffCount + 1;
         ENDIF
     ENDFOR
-
+END
     // Kontrollera om exakt en skillnad finns
     if diffCount == 1 THEN
         return true;
